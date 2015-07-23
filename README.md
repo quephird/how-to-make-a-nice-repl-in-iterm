@@ -36,9 +36,7 @@ You can also change the colors of the text and background but that should be sel
 
 We're not quite done yet as we want to be able to launch this from with Alfred so save unecessary gestures and mouse clicks. And we also want to be able to specify the profile to use at runtime. Unfortunately, as of this writing, iTerm2 does not have a provision for specifying a profile via a command line switch.
 
-So we need to resort to AppleScript in order to do this. I modelled my solution based on the SO answer given [here](http://superuser.com/questions/455915/mac-os-how-can-i-launch-the-iterm-terminal-with-a-specific-profile-from-autom/455936#455936).
-
-This code below works for me; note the name of the profile here needs to be the one you typed above.
+So we need to resort to AppleScript in order to do this. I modelled my solution based on the SO answer given [here](http://superuser.com/questions/455915/mac-os-how-can-i-launch-the-iterm-terminal-with-a-specific-profile-from-autom/455936#455936). The code below works for me; note the name of the profile here needs to be the one you typed above.
 
 ![clojure repl](images/applescript.png)
 
